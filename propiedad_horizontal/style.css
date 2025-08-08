@@ -4,11 +4,6 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-/* Estilos para el header */
-header {
-    background-color: #007bff; /* Color azul de Bootstrap */
-}
-
 /* Estilos para el footer */
 footer {
     background-color: #343a40; /* Color gris oscuro de Bootstrap */
