@@ -34,3 +34,11 @@ footer {
 main {
     padding: 20px;
 }
+
+/* Reemplaza esta clase con la que uses en tu HTML para el Jumbotron */
+.p-5 {
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
