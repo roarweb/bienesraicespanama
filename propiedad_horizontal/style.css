@@ -4,6 +4,11 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
+/* Estilos para el header */
+header {
+    background-color: #007bff; /* Color azul de Bootstrap */
+}
+
 /* Estilos para el footer */
 footer {
     background-color: #343a40; /* Color gris oscuro de Bootstrap */
@@ -28,12 +33,4 @@ footer {
 /* Estilos para el contenido principal */
 main {
     padding: 20px;
-}
-
-/* Reemplaza esta clase con la que uses en tu HTML para el Jumbotron */
-.p-5 {
-    min-height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
