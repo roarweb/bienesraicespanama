@@ -1,0 +1,20 @@
+{
+  "name": "bienesraicespanama",
+  "version": "1.0.0",
+  "description": "Temario del examen de corredor de bienes raíces.",
+  "main": "annio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roarweb/bienesraicespanama.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roarweb/bienesraicespanama/issues"
+  },
+  "homepage": "https://github.com/roarweb/bienesraicespanama#readme"
+}
