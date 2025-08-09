@@ -31,6 +31,47 @@ footer {
 }
 
 /* Estilos para el contenido principal */
-main {
-    padding: 20px;
+.column {
+  /* Ocupa el 100% del ancho del contenedor padre */
+  width: 100%;
+  
+  /* Usamos Flexbox para alinear y distribuir los elementos */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  /* El height puede ser dinámico o en un porcentaje */
+  height: 100px;
+  
+  /* Un padding para que los botones no toquen los bordes */
+  padding: 0 5%;
+  
+  /* Para visualizar el contenedor */
+  /*border: 1px solid black;*/ 
+}
+
+.button {
+  /* La fuente se ajusta a la pantalla */
+  font-size: 5vw;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .column {
+    height: 80px;
+    padding: 0 2%;
+  }
+
+  .button {
+    font-size: 10vw;
+  }
 }
